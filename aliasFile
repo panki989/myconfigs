@@ -1,0 +1,34 @@
+export EDITOR=vim
+export VISUAL="$EDITOR"
+export FZF_DEFAULT_OPTS='--preview "bat --color=always {}" --preview-window "up,80%,border-bottom,+{2}+3/3,~3"'
+alias python='python3'
+alias pip='pip3'
+alias cat='bat'
+alias luk='vim $(fzf)'
+alias ls='exa'
+alias fd='ag --files-with-matches'
+alias ll='exa -alh --octal-permissions --no-user'
+alias tree='ll --tree'
+
+# My functions
+# vim $(fd configmap.reloader | fzf)
+function fne() {
+  vim $(fd $1 | fzf);
+}
+
+# my needs...
+alias rl='source ~/.zshrc'
+alias ld='exa -alhD --octal-permissions --no-user'
+alias ggg='export Oo=$(gb --show-current) && gcm && git pull && gb -D $Oo && gcb $Oo'
+alias gb="git branch"
+alias gcm="git checkout master"
+alias gco="git checkout"
+alias gcb="git checkout -b"
+alias refmt='python3 ~/workspace/nginx-config-formatter/nginxfmt.py -v'
+alias ter="export PS1='%F{yellow}%4~
+# '"
+
+#K8 alias
+alias kb='kubectl'
+alias cls='clear'
+alias kdit='KUBE_EDITOR="vim" kb edit'
