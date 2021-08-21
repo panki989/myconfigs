@@ -1,0 +1,21 @@
+{
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.fontSize": 16,
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "explorer.confirmDelete": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.tabs.location": "left",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
+    "scm.inputFontSize": 16
+}
