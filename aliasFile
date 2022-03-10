@@ -1,5 +1,6 @@
 export EDITOR=vim
 export VISUAL="$EDITOR"
+export KUBE_EDITOR='vim'
 export FZF_DEFAULT_OPTS='--preview "bat --color=always {}" --preview-window "up,80%,border-bottom,+{2}+3/3,~3"'
 alias python='python3'
 alias pip='pip3'
@@ -12,6 +13,10 @@ alias tree='ll --tree'
 
 # My functions
 # vim $(fd configmap.reloader | fzf)
+
+# Tweaks
+# git config --global pager.branch false
+
 function fne() {
   vim $(fd $1 | fzf);
 }
