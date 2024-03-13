@@ -11,14 +11,10 @@ alias fd='ag --files-with-matches'
 alias ll='exa -alh --octal-permissions --no-user'
 alias tree='ll --tree'
 
-# My functions
-# vim $(fd configmap.reloader | fzf)
 
-# Tweaks
-# git config --global pager.branch false
 
-function fne() {
-  vim $(fd $1 | fzf);
+function fnb() {
+  cat $(fd $1 | fzf);
 }
 
 # my needs...
@@ -26,6 +22,7 @@ alias rl='source ~/.zshrc'
 alias ld='exa -alhD --octal-permissions --no-user'
 alias ggg='export Oo=$(gb --show-current) && gcm && git pull && gb -D $Oo && gcb $Oo'
 alias gb="git branch"
+alias gc="git clone"
 alias gcm="git checkout master"
 alias gco="git checkout"
 alias gcb="git checkout -b"
@@ -37,3 +34,4 @@ alias ter="export PS1='%F{yellow}%4~
 alias kb='kubectl'
 alias cls='clear'
 alias kdit='KUBE_EDITOR="vim" kb edit'
+alias ctx='kubectl ctx'
