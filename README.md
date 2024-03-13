@@ -1,12 +1,15 @@
 # Tools list
 ## Terminal/iTerm2
 ```
+iterm2
 zsh
 prezto
 bat
 exa
 silver_serach(ag)
 fzf
+kubectl
+clippy: https://clipy-app.com/
 ```
 
 ## Editors
