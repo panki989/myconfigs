@@ -31,4 +31,5 @@ Package Resource Viewer
 SideBar
 Terminus
 Markdown​Preview
+Restart
 ```
