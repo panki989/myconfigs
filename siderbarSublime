@@ -1,0 +1,13 @@
+> pwd
+/Users/pankaj.chaurasia/Library/Application Support/Sublime Text 3/Packages/User
+
+> cat Material-Theme.sublime-theme
+```
+[
+    {
+        "class": "sidebar_label",
+        "font.bold": false,
+        "font.size": 16
+    }
+]
+```
