@@ -26,6 +26,7 @@ alias gc="git clone"
 alias gcm="git checkout master"
 alias gco="git checkout"
 alias gcb="git checkout -b"
+alias gpsh="git push origin"
 alias refmt='python3 ~/workspace/nginx-config-formatter/nginxfmt.py -v'
 alias ter="export PS1='%F{yellow}%4~
 # '"
