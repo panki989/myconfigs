@@ -36,3 +36,14 @@ alias kb='kubectl'
 alias cls='clear'
 alias kdit='KUBE_EDITOR="vim" kb edit'
 alias ctx='kubectl ctx'
+
+
+# AWS
+function find_ip() {
+  aws ec2 describe-instances --filters "Name=network-interface.addresses.private-dns-name,Values=$1" \
+  --query 'Reservations[*].Instances[*].InstanceId' --output text 
+}
+
+function aws_ssm() {
+  aws ssm start-session --target $(find_ip $1)
+}
