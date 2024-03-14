@@ -1,3 +1,4 @@
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 export EDITOR=vim
 export VISUAL="$EDITOR"
 export KUBE_EDITOR='vim'
