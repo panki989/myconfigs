@@ -14,6 +14,7 @@ clippy: https://clipy-app.com/
 aws-cli
 session-manager [https://docs.aws.amazon.com/systems-manager/latest/userguide/install-plugin-macos-overview.html]
 krew
+tfenv
 ```
 
 ## Kubectl krew:
