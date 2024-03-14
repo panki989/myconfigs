@@ -16,6 +16,12 @@ session-manager [https://docs.aws.amazon.com/systems-manager/latest/userguide/in
 krew
 ```
 
+## Kubectl krew:
+```
+kubectl krew install get-all
+kubectl krew install neat
+```
+
 ## Editors
 ### VSCode
 ```
