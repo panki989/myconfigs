@@ -26,4 +26,5 @@
   "highlight_line": true,
   "caret_style": "smooth",
   "save_on_focus_lost": true,
+  "auto_save_on_modified": true
 }
