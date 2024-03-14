@@ -12,7 +12,9 @@ alias fd='ag --files-with-matches'
 alias ll='exa -alh --octal-permissions --no-user'
 alias tree='ll --tree'
 
-
+alias tinit='terraform init'
+alias tplan='terraform plan'
+alias taply='terrafrom apply'
 
 function fnb() {
   cat $(fd $1 | fzf);
