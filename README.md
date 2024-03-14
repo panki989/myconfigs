@@ -44,4 +44,5 @@ Terminus
 Markdown​Preview
 Restart
 https://github.com/tmichel/sublime-terraform
+auto-save
 ```
