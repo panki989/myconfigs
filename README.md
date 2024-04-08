@@ -15,6 +15,7 @@ aws-cli
 session-manager [https://docs.aws.amazon.com/systems-manager/latest/userguide/install-plugin-macos-overview.html]
 krew
 tfenv
+flux@0.41
 ```
 
 ## Kubectl krew:
