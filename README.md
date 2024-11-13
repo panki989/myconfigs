@@ -18,6 +18,7 @@ tfenv
 flux@0.41
 colima
 docker
+docker-buildx
 crane
 ```
 
