@@ -16,6 +16,9 @@ session-manager [https://docs.aws.amazon.com/systems-manager/latest/userguide/in
 krew
 tfenv
 flux@0.41
+colima
+docker
+crane
 ```
 
 ## Kubectl krew:
