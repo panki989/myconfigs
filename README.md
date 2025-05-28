@@ -6,7 +6,7 @@ brew
 zsh
 prezto
 bat
-exa
+eza
 silver_serach(ag)
 fzf
 kubectl
