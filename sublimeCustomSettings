@@ -5,6 +5,7 @@
 	],
 	"theme": "Material-Theme.sublime-theme",
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+        "font_face": "MesloLGS NF",
 	"font_size": 17,
 	"material_theme_bullet_tree_indicator": true,
 	"material_theme_tabs_autowidth": true,
