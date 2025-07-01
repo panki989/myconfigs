@@ -26,6 +26,7 @@ crane
 ```
 kubectl krew install get-all
 kubectl krew install neat
+kubectl krew install ctx
 ```
 
 ## Editors
