@@ -7,9 +7,9 @@ alias python='python3'
 alias pip='pip3'
 alias cat='bat'
 alias luk='vim $(fzf)'
-alias ls='exa'
+alias ls='eza'
 alias fd='ag --files-with-matches'
-alias ll='exa -alh --octal-permissions --no-user'
+alias ll='eza -alh --octal-permissions --no-user'
 alias tree='ll --tree'
 
 alias tinit='terraform init'
@@ -22,7 +22,7 @@ function fnb() {
 
 # my needs...
 alias rl='source ~/.zshrc'
-alias ld='exa -alhD --octal-permissions --no-user'
+alias ld='eza -alhD --octal-permissions --no-user'
 alias ggg='export Oo=$(gb --show-current) && gcm && git pull && gb -D $Oo && gcb $Oo'
 alias gb="git branch"
 alias gc="git clone"
